@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_record"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="add_record"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/addTripNames"
+        android:icon="@android:drawable/ic_input_add"
+        android:orderInCategory="100"
+        android:title="Add New Trip Name"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+    <item
+        android:id="@+id/BackAll"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="100"
+        android:title="SendJSON"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

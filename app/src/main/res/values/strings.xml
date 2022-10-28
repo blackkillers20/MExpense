@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">M_Expense_Final</string>
+
+    <string name="urlJSON">https://cwservice1786.herokuapp.com/</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivityExpense">
+
+    <TextView
+        android:id="@+id/txtDateEx"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginRight="6dp"
+        android:text="Time of Expense" />
+
+    <TextView
+        android:id="@+id/txtCmt"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="6dp"
+        android:text="Additional Comment" />
+
+    <TextView
+        android:id="@+id/txtAmt3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginRight="6dp"
+        android:text="Amount of Expense ($)" />
+
+
+    <TextView
+        android:id="@+id/txtExTypes2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="6dp"
+        android:text="Expense Types:" />
+
+    <TextView
+        android:id="@+id/txtTripName"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginRight="6dp"
+        android:text="Trip ID" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:onClick="onClick2" />
+
+    <EditText
+        android:id="@+id/edComt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edtAmt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/spnTrip"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/spnExpense"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+</RelativeLayout>

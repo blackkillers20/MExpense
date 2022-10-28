@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtDateEx"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="6dp"
+        android:text="Trip Name" />
+
+    <TextView
+        android:id="@+id/txtdesti"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginRight="6dp"
+        android:text="Destination" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginRight="6dp"
+        android:text="Date of the Trip" />
+
+    <TextView
+        android:id="@+id/txtRisk"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginRight="6dp"
+        android:text="Required Risk Assesment?" />
+
+    <TextView
+        android:id="@+id/txtTripName"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginRight="6dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/Desti"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/DateEdit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+    <EditText
+        android:id="@+id/spnTrip"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="281dp"
+        android:layout_marginTop="649dp"
+        android:layout_marginRight="6dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/delbtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="646dp"
+        android:layout_marginRight="6dp"
+        android:text="Delete" />
+
+    <RadioGroup
+        android:id="@+id/riskgroup"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginRight="6dp">
+
+        <RadioButton
+            android:id="@+id/rdnYes"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/rdnNo"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="No"
+            tools:visibility="visible" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/drawable/gradient_bg.xml" value="0.189" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/drawable/gradient_bg_hover.xml" value="0.189" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/drawable/list_selector.xml" value="0.189" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/drawable/rectangle_shape.xml" value="0.1" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/drawable/shadow_border.xml" value="0.189" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_add.xml" value="0.264" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_add_expense.xml" value="0.2" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_add_trip_name.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_main_expense.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_read.xml" value="0.264" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_read_expense.xml" value="0.264" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_update.xml" value="0.264" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_update_expense.xml" value="0.2" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/layout/activity_view.xml" value="0.2" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/menu/addtrip.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/menu/expense.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/menu/main.xml" value="0.253125" />
+        <entry key="..\:/Users/LAPTOP/AndroidStudioProjects/M_Expense_Final/app/src/main/res/menu/update.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

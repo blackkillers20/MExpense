@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/txtDateEx"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="6dp"
+        android:text="Trip Name" />
+
+    <TextView
+        android:id="@+id/txtdesti"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginRight="6dp"
+        android:text="Destination" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="6dp"
+        android:text="Start Date" />
+
+    <TextView
+        android:id="@+id/txtDateEnd"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="6dp"
+        android:text="End Date" />
+
+    <TextView
+        android:id="@+id/txtRisk4"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginRight="6dp"
+        android:text="Require Risk Assessment?" />
+
+    <TextView
+        android:id="@+id/txtTransport"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="6dp"
+        android:text="Transportation:" />
+
+    <TextView
+        android:id="@+id/txtTripName"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="6dp"
+        android:text="Description" />
+
+    <Spinner
+        android:id="@+id/edName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/edUpdateTrans"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/Desti"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/DateEdit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:onClick="onClick2" />
+
+
+    <EditText
+        android:id="@+id/dateEditEnd"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:onClick="onClickEnd" />
+
+    <EditText
+        android:id="@+id/spnTrip"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="6dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Switch
+        android:id="@+id/switchRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginRight="6dp"
+        android:text="Risk" />
+
+</RelativeLayout>
