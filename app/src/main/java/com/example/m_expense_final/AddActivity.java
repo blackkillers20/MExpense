@@ -80,25 +80,45 @@ public class AddActivity extends AppCompatActivity {
 
     }
 
-//    private boolean CheckForm()
-//
-//    {
-//
-//        if (Destination.length() == 0 | DateofTrip.length() == 0 | DateEnd.length() == 0)
+    private boolean CheckForm()
+
+    {
+        boolean check1 = false;
+        boolean check2 = false;
+        boolean check3 = false;
+
+        if (Destination.length() == 0 )
+        {
+            Destination.setError("Required Form!");
+            check1 = false;
+        }
+        else{
+            check1 = true;
+        }
+        if(DateofTrip.length() == 0){
+            DateofTrip.setError("Required Form!");
+            check2 = false;
+        }
+        else{
+            check2 = true;
+        }
+        if(DateEnd.length() == 0){
+            DateEnd.setError("Required Form!");
+            check3 = false;
+        }
+        else{
+            check3= true;
+        }
+//        if (DateofTrip.length() == 0)
 //        {
-//            Destination.setError("Required Form!");
 //            DateofTrip.setError("Required Form!");
-//            DateEnd.setError("Required Form!");
 //            return false;
 //        }
-////        if (DateofTrip.length() == 0)
-////        {
-////            DateofTrip.setError("Required Form!");
-////            return false;
-////        }
-//        return true;
-//
-//    }
+        if(!check1 | !check2 | !check3) return false;
+        return true;
+
+    }
+
 
 
     public void onClick(View v)
@@ -113,11 +133,11 @@ public class AddActivity extends AppCompatActivity {
                 String dateEnd = DateEnd.getText().toString();
 //                String Riskass = RiskAssess.getText().toString();
                 String description = Description.getText().toString();
-//                isFormChecked = CheckForm();
-                if (!CheckDestination()|!CheckDate()|CheckEndDate())
-                {
-                    return;
-                }
+                isFormChecked = CheckForm();
+//                if (!CheckDestination()|!CheckDate()|CheckEndDate())
+//                {
+//                    return;
+//                }
                if (Risk.isChecked()) RiskAssese = "Yes";
                else RiskAssese = "No";
 
@@ -137,10 +157,13 @@ public class AddActivity extends AppCompatActivity {
 
 
 
+                    if(isFormChecked)
+                    {
+                        databaseHelper.Inserts(TripName, destination, tripdate,dateEnd, RiskAssese, Transportations, description);
+                        Intent intent = new Intent(AddActivity.this, MainActivity.class);
+                        startActivity(intent);
+                    }
 
-                    databaseHelper.Inserts(TripName, destination, tripdate,dateEnd, RiskAssese, Transportations, description);
-                    Intent intent = new Intent(AddActivity.this, MainActivity.class);
-                    startActivity(intent);
 
 
         }
